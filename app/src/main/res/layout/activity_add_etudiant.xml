@@ -67,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="femme" />
+            android:text="@string/femme" />
     </RadioGroup>
     <Button
         android:id="@+id/add"
@@ -78,5 +78,7 @@
         android:id="@+id/goToListButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/show_etudiants" />
+        android:text="@string/show_etudiants"
+        android:background="@color/black"
+        />
 </LinearLayout>
