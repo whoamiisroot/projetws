@@ -17,10 +17,10 @@
             android:name=".EtudiantsList"
             android:exported="false" />
         <activity
-            android:name=".AddEtudiant"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddEtudiant"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
